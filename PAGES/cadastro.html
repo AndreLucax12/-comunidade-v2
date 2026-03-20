@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="Pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comunidade</title>
     <link rel="stylesheet" href="../CSS/cadastro.css">
 </head>
+
 <body>
-    <nav class="menu-navegacao">
-        <a href="../index.html" class="link-menu">Inicio</a>
-    </nav>
+    <header class="cabecalho-principal">
+        <h1 class="titulo-site">Comunidade Dev</h1>
+        <nav class="menu-navegacao">
+            <a href="../index.html" class="link-menu">Inicio</a>
+        </nav>
+    </header>
+
+    <main class="conteudo-principal">
+        <h2 class="subtitulo">Junte-se a nós</h2>
+        <p class="subtext">Preencha os dados abaixo para receber nossos avisos e participar dos encontros.</p>
+
+        <form class="formulario-cadastro">
+            <label for="nome" class="rotulo-campo">Seu Nome:</label>
+            <input type="text" id="nome" class="campo-entrada" placeholder="Digite seu nome completo">
+
+            <label for="email" class="rotulo-campo">Seu E-mail:</label>
+            <input type="email" id="email" class="campo-entrada" placeholder="Nome@exemplo.com">
+
+            <button type="submit" class="botao-enviar">Quero Participar</button>
+        </form>
+    </main>
 </body>
+
 </html>

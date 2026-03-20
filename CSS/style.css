@@ -1,42 +1,86 @@
-.texto-comum,.titulo-site, .subtitulo{
-    font-family: Arial, sans-serif;
+.texto-comum,
+.titulo-site,
+.subtitulo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-.cabecalho-principal{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f8f9af;
-    padding: 20px;
-    border-bottom: 2px solid #e9ecef;
-}   
-
-.menu-navegação{
-    display: flex;
-    gap: 15px;
+body {
+  width: 100%;
+  background-color: #dddddd;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
 }
 
-.link-menu{
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    padding: 10px 15px;
-    border-radius: 5px;
+.cabecalho-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom: 2px solid #e9ecef;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container-layout{
-    display: flex;
-    gap: 30px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}   
-
-.conteudo-principal{
-    flex: 3;
-    background-color: #e9ecef;
-    padding: 20px;
-    border-radius: 8px;
+.menu-navegação {
+  display: flex;
+  gap: 15px;
 }
 
+.link-menu {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.container-layout {
+  width: 80%;
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  max-width: 1500px;
+  margin: 40px auto;
+  flex: 1;
+}
+
+.secao-sobre {
+  flex: 2;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eee;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.barra-lateral {
+  height: 10%;
+  flex: 1;
+  background-color: #d7e4f0;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link-menu {
+  transition: background-color 0.3s ease;
+  color: 0.3 ease;
+}
+
+.link-menu:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.rodape-site {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
